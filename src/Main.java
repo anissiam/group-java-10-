@@ -4,7 +4,12 @@ public class Main {
     static double xx;
     boolean b ;
     public static void main(String[] args) {
+        int i = 0;
+        System.out.println(i += 10);
 
+        System.out.println(i);
+
+        System.out.println(10 / 3);
         int x = 10;
         int y = 57;
         int w = 30;
