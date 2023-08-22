@@ -56,5 +56,23 @@ public class Strings {
         System.out.println(text.substring(2));
         System.out.println(text.substring(2 , 6));
 
+        System.out.println(text.replace("java", "C++"));
+
+
+        System.out.println(text.startsWith("h"));
+        System.out.println(text.endsWith("s"));
+
+
+        System.out.println("Hello from \njava" );
+        System.out.println("Hello from \tjava" );
+        System.out.println("Hello from \bjava" );
+        System.out.println("Hello from \rjava" );
+        System.out.println("Hello from \fjava" );
+        System.out.println("Hello from \"java\"" );
+        System.out.println("Hello from \'java\'" );
+        System.out.println("Hello from \\java\\" );
+
+
+
     }
 }
