@@ -51,5 +51,10 @@ public class Strings {
         System.out.println(line.charAt(1));
         System.out.println(line.charAt(2));
         System.out.println(line.charAt(3));
+
+
+        System.out.println(text.substring(2));
+        System.out.println(text.substring(2 , 6));
+
     }
 }
