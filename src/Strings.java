@@ -1,6 +1,39 @@
 public class Strings {
     public static void main(String[] args) {
-        String name = " Anis ";
+
+       /* String email = "email@gmail.com ";
+        System.out.println(email.contains("@"));
+
+        System.out.println("a");*/
+
+        /*String text = "Java class";
+        System.out.println(text.isEmpty());
+        System.out.println(text.substring(3));
+        System.out.println(text.substring(5));
+        int l =  text.length();
+        System.out.println(l);
+        System.out.println(text.substring(5));*/
+
+
+        /*String st1 = "PHP Exercises and";
+        String st2 = " Python Exercises";
+
+        System.out.println(st1.concat(st2));
+
+
+        int length = st1.length() + st2.length();
+        System.out.println(length);
+
+        System.out.println(st1.equals(st2));
+        System.out.println(st1.replace("PHP", "Java"));*/
+
+
+
+
+
+
+
+        /*String name = " Anis ";
         String name1 = "Anis";
         String name3 = "ANIS";
         String lastName = "Siam";
@@ -70,7 +103,7 @@ public class Strings {
         System.out.println("Hello from \fjava" );
         System.out.println("Hello from \"java\"" );
         System.out.println("Hello from \'java\'" );
-        System.out.println("Hello from \\java\\" );
+        System.out.println("Hello from \\java\\" );*/
 
 
 
