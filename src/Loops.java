@@ -4,9 +4,74 @@ public class Loops {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        for (;;){
-
+        for (int i = 0; i < 4; i++) {
+            System.out.println("Week:" + (i + 1));
+            for (int j = 0; j < 7; j++) {
+                System.out.print("Day" + (j + 1) + " ");
+            }
+            System.out.println();
         }
+        /*for (int i = 0; i < 10; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+        /*for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 5; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }*/
+
+
+
+
+
+
+        /*System.out.println("Enter the num ");
+        int num = scanner.nextInt();
+        int i = 1;
+        while (i <= 12) {
+            System.out.println(num + "*" + i + "=" + (num * i));
+            i++;
+        }*/
+        /*int i = 0;
+        int sum = 0;
+        while (i<5){
+            System.out.println("Enter the num ");
+            int num = scanner.nextInt();
+            sum += num;
+            i++;
+        }
+        System.out.println(sum / 5);
+*/
+
+        /*System.out.println("Enter the num ");
+        int num = scanner.nextInt();
+        int i = 1;
+        int fact = 1;
+        while (i<=num){
+            fact *= i;
+            i++;
+        }
+        System.out.println(fact);*/
+
+        /*int i = 0;
+        int sum = 0;
+        while (i<=100){
+            sum += i;
+            i++;
+        }
+        System.out.println(sum);*/
+
+/*
+        int i = 0;
+        for (;;){
+            System.out.println(i);
+            i++;
+        }*/
         /*for (int i = 0; i < 100; System.out.println(i)) {
             i+=2;
 
