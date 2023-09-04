@@ -4,6 +4,48 @@ public class Loops {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        /*for (int i = 1; i < 4; i++) {
+            for (int j = 1; j < 11; j++) {
+                System.out.println(i + "*" + j + " = " + (i * j));
+            }
+        }*/
+        /*int num;
+        for (;;) {
+            System.out.println("plz enter the num");
+             num = scanner.nextInt();
+             if (num==0){
+                 System.out.println("Zero");
+                 continue;
+             }
+             if(num%2==0){
+                 System.out.println(num + " is Even");
+             }else {
+                 System.out.println(num + " is Odd");
+
+             }
+        }*/
+       /* System.out.println("Plz enter the name");
+        String name = scanner.nextLine();
+        for (;;) {
+            if (name.equalsIgnoreCase("stop")){
+                System.out.println("Stopped");
+                break;
+            }
+            System.out.println("Plz enter the new name");
+            name = scanner.nextLine();
+        }*/
+        /*for (int i = 0; i < 10; i++) {
+            if (i==9){
+                System.out.print("1/" + i);
+            }else {
+                System.out.print("1/" + i + " + ");
+
+            }
+        }*/
+       /* for ( int x = 100;x>=0;--x ){
+            System.out.println(x);
+        }
+        */
         for (int i = 0; i < 4; i++) {
             System.out.println("Week:" + (i + 1));
             for (int j = 0; j < 7; j++) {
