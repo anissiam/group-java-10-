@@ -3,12 +3,159 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int[] arr = new int[10];
+        int mult = 1;
+        int sum = 0;
+        int max = 0;
+        int min = 0;
+        boolean f = false;
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("Plz enter the element");
+            int num = scanner.nextInt();
+            arr[i] = num;
 
-        String[] names = {"sami", "Ali", "Anis", "mosa", "anis"};
+            mult *= arr[i];
+            sum += arr[i];
 
+            if (i == 0) {
+                max = arr[i];
+                min = arr[i];
+            }
+
+            if (max<arr[i]){
+                max = arr[i];
+            }
+            if (min>arr[i]){
+                min = arr[i];
+            }
+
+            if (arr[i] ==10){
+
+                f = true;
+            }
+        }
+
+        System.out.println("mutiple " + mult);
+        System.out.println("sum " + sum);
+        System.out.println("ava " + sum / arr.length);
+        System.out.println("MIn " + min);
+        System.out.println("max " + max);
+        System.out.println("10 " + f);
+        /*String[] names1 = {"anis", "sami", "lolo", "mosa"};
+
+        for (String s:names1) {
+            System.out.println(s);
+        }*/
+
+       /* String hand[][] = {{"node 1 " , "node 2 " , "node 3"},
+                {"node 1 " , "node 2 " , "node 3"},
+                {"node 1 " , "node 2 " , "node 3"},
+                {"node 1 " , "node 2 " , "node 3"},
+                {"node 1 " , "node 2 " , "node 3"}};
+
+        for (int i = 0; i < hand.length; i++) {
+            System.out.println("Finger " + (i + 1));
+            for (int j = 0; j < hand[i].length; j++) {
+                System.out.print(hand[i][j] +" ");
+            }
+            System.out.println();
+        }*/
+        /*String[][] month = {{"sat" , "sun", "mon" , "tus" , "wend" ,"thr" ,"fri"},
+                {"sat" , "sun", "mon" , "tus" , "wend" ,"thr" ,"fri"},
+                {"sat" , "sun", "mon" , "tus" , "wend" ,"thr" ,"fri"},
+                {"sat" , "sun", "mon" , "tus" , "wend" ,"thr" ,"fri"}};
+
+        for (int i = 0; i < month.length; i++) {
+            System.out.println("Week " + (i + 1));
+            for (int j = 0; j < month[i].length; j++) {
+                System.out.print(month[i][j] + " ");
+            }
+            System.out.println();
+        }*/
+        /*int[][] arr = new int[3][4];
+        //int[][] arr = {{3, 2, 1, 7}, {5, 4, 2, 1 , 500}, {10, 2, 3, 8}};
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println("Plz entter the element");
+                arr[i][j] = scanner.nextInt();
+            }
+        }
+
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+
+            }
+            System.out.println();
+        }
+*/
+
+       /* int[][] arr = new int[3][4];
+        System.out.println(arr.length); // عدد الصفوف
+        System.out.println(arr[0].length); // عدد ال element في الصف الاول i = 0
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+
+            }
+            System.out.println();
+        }*/
+        /*arr[0][2] = 50;
+        System.out.println(arr[0][2]);*/
+        //System.out.println(arr[0][5]);
+
+       /* String[] names1 = {"anis", "sami", "lolo", "mosa"};
+        String[] names2 = {"SOSO", "nana", "anis", "mohammed"};
+
+
+        for (int i = 0; i < names1.length; i++) {
+            for (int j = 0; j < names2.length; j++) {
+
+                if (names1[i].equalsIgnoreCase(names2[j])){
+                    System.out.println(names1[i]  + " is duplicated");
+
+                }
+            }
+        }
+*/
+
+       /*  int[] arr = {5, 2, 8, 7, 1};
+
+       System.out.println(java.util.Arrays.toString(arr));
+        int temp = 0;
+
+
+        java.util.Arrays.sort(arr);
+
+        *//*for (int i = 0; i < arr.length; i++) {
+            for (int j = i+1; j <arr.length ; j++) {
+                if (arr[i] > arr[j]) {
+                    temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }*//*
+
+        System.out.println(java.util.Arrays.toString(arr));*/
+
+        /*String[] names = {"sami", "Ali", "anis", "mosa", "anis"};
         System.out.println(java.util.Arrays.toString(names));
-        java.util.Arrays.sort(names);
-        System.out.println(java.util.Arrays.toString(names));
+
+        for (int i = 0; i < names.length; i++) {
+            for (int j = i + 1; j < names.length; j++) {
+                if (names[i].equalsIgnoreCase(names[j])) {
+                    System.out.println(names[i] + " is duplicated");
+                }
+            }
+        }*/
+
+
+      /*  java.util.Arrays.sort(names);
+        System.out.println(java.util.Arrays.toString(names));*/
 
         /*System.out.println("Plz enter the name");
         String name = scanner.nextLine();
