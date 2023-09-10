@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Arrays {
@@ -124,11 +126,11 @@ public class Arrays {
 
        /*  int[] arr = {5, 2, 8, 7, 1};
 
-       System.out.println(java.util.Arrays.toString(arr));
+       System.out.println(java.util.basics.Arrays.toString(arr));
         int temp = 0;
 
 
-        java.util.Arrays.sort(arr);
+        java.util.basics.Arrays.sort(arr);
 
         *//*for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j <arr.length ; j++) {
@@ -140,10 +142,10 @@ public class Arrays {
             }
         }*//*
 
-        System.out.println(java.util.Arrays.toString(arr));*/
+        System.out.println(java.util.basics.Arrays.toString(arr));*/
 
         /*String[] names = {"sami", "Ali", "anis", "mosa", "anis"};
-        System.out.println(java.util.Arrays.toString(names));
+        System.out.println(java.util.basics.Arrays.toString(names));
 
         for (int i = 0; i < names.length; i++) {
             for (int j = i + 1; j < names.length; j++) {
@@ -154,8 +156,8 @@ public class Arrays {
         }*/
 
 
-      /*  java.util.Arrays.sort(names);
-        System.out.println(java.util.Arrays.toString(names));*/
+      /*  java.util.basics.Arrays.sort(names);
+        System.out.println(java.util.basics.Arrays.toString(names));*/
 
         /*System.out.println("Plz enter the name");
         String name = scanner.nextLine();

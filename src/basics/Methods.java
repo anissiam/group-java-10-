@@ -1,10 +1,31 @@
+package basics;
+
 import java.util.Scanner;
 
 public class Methods {
     public static void main(String[] args) {
+        int[] arr = {10, 50, 9};
+        sum();
+        sum(10, 10);
+        sum(10, "10");
+        sum("10", 10);
+       // sum("10", "10");
+        //printArray(arr);
 
-        int s = sum1(10, 20, 30)/3;
-        System.out.println(s);
+        /*String s = test();
+        System.out.println(s.length());
+
+        int x = 5;
+        int y = 10;
+        int v = 800;
+        sum3(x, y, 10, 500, v);*/
+
+
+
+        //sum2(x, y);
+
+       /* int s = sum1(10, 20, 30)/3;
+        System.out.println(s);*/
        // div();
         //multiple(10,50);
         /*Scanner scanner = new Scanner(System.in);
@@ -29,10 +50,38 @@ public class Methods {
 
 
     }
+    static void sum3(int ...para) {
+        int sum = 0;
+        for (int i = 0; i < para.length; i++) {
+            sum += para[i];
+        }
+        System.out.println(sum);
+    }
+    static int sum2(int x, int y) {
+        int result = x + y ;
+        return result;
+    }
 
+   /* static int sum2(int x, String y) {
+        int result = x + y ;
+        return result;
+    }*/
     static void sum(int c , int v){
 
         System.out.println(c + v);
+    }
+
+    static void sum(int c, String y) {
+
+        System.out.println(c + y);
+    }
+    static void sum( String y , int c) {
+
+        System.out.println(c + y);
+    }
+    static void sum() {
+
+        System.out.println();
     }
 
 
@@ -67,5 +116,22 @@ public class Methods {
     static int sum1(int x, int y, int z) {
         int result = x + y + z;
         return result;
+    }
+
+
+    /*static void printArray(int[] arr){
+        for (int x : arr) {
+            System.out.println(x);
+
+        }
+    }*/
+    static String test(){
+        int x = 5;
+
+        if (x>=5){
+            return "bigger than 5";
+        }else {
+            return "less than 5";
+        }
     }
 }

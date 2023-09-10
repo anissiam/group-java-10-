@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
@@ -11,7 +13,7 @@ public class Project {
         Scanner scanner = new Scanner(System.in);
         int c = 0;
         do {
-            System.out.println("1)Show names Arrays\n2)Show marks Arrays\n3)Add Names\n4)Add Marks\n5)Sort Mark Array\n6)Update\n7)Delete\n8)Exit");
+            System.out.println("1)Show names basics.Arrays\n2)Show marks basics.Arrays\n3)Add Names\n4)Add Marks\n5)Sort Mark Array\n6)Update\n7)Delete\n8)Exit");
             c = scanner.nextInt();
             switch (c){
                 case 1:

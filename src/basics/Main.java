@@ -1,3 +1,5 @@
+package basics;
+
 public class Main {
     static int e ; //Global
     static int c = 700;
