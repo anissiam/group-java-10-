@@ -4,12 +4,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        SuperMan superMan = new SuperMan("Clark" , "fly");
+        Shape shape = new Shape();
+        shape.setL(5);
+        shape.setW(10);
+        System.out.println(shape.area());
+
+        /*SuperMan superMan = new SuperMan("Clark" , "fly");
         System.out.println(superMan.getName() + " " + superMan.getSuperPower());
 
         superMan.setName("anis");
         superMan.setSuperPower("not thing");
-        System.out.println(superMan.getName() + " " + superMan.getSuperPower());
+        System.out.println(superMan.getName() + " " + superMan.getSuperPower());*/
 
 /*
         Person1 person1 = new Person1("anis", 30);
