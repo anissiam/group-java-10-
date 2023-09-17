@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
         HighSchool highSchool = new HighSchool();
         highSchool.mark = 20;
-        highSchool.age = 10;
-        highSchool.name = "sami";
+       /* highSchool.age = 10;
+        highSchool.name = "sami";*/
         highSchool.printAllData();
 
         /*Student student = new Student();
