@@ -1,8 +1,9 @@
 package oop.homework;
 
+import oop.basics.Modifier;
+
 public class Main {
     public static void main(String[] args) {
-
         Laptop laptop = new Laptop(512, 12, true, 1.5);
         System.out.println(laptop.toString());
         /*Author author = new Author("Tan Ah Teck" , "ahteck@nowhere.com");
