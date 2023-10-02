@@ -2,8 +2,8 @@ package oop.abstraction;
 
 import oop.basics.Modifier;
 
-public abstract class Car extends Modifier {
-    //private String name;
+public abstract class Car  {
+    private String name;
     private int speed;
     private String color;
 

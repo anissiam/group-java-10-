@@ -2,6 +2,8 @@ package oop.inhr;
 
 public class Main {
     public static void main(String[] args) {
+
+
         HighSchool highSchool = new HighSchool();
         highSchool.mark = 20;
        /* highSchool.age = 10;
