@@ -51,6 +51,14 @@ public class Shape {
         return 0.0;
     }
 
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "width=" + width +
+                ", height=" + height +
+                ", rad=" + rad +
+                '}';
+    }
 
     public String printData() {
         return "Shape{" +
